@@ -1,0 +1,23 @@
+#login-form {
+  margin-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
+#login-form input {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 24px;
+  padding: 5px 10px;
+}
+
+#login-form button {
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+}
