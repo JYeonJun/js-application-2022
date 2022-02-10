@@ -22,6 +22,6 @@ input:focus {
   outline: none;
 }
 
-input::placeholder {
+#login-form input::placeholder {
   color: white;
 }

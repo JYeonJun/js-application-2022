@@ -6,6 +6,7 @@ function paintImage(){
     const bgImage = document.createElement("img");  // HTML 요소 생성
     bgImage.src = `img/${chosenImage}`;
     bgImage.classList.add("bgImage");
+    
     // body에 bgImage 추가
     document.body.appendChild(bgImage);
 }
