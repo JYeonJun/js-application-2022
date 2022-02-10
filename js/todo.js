@@ -13,7 +13,7 @@ function saveToDos(){
 function deleteToDo(event){
     const li = event.target.parentElement;
     li.remove();    // 화면상 list 목록 제거
-    toDos = toDos.filter((toDo) => toDo.id !== li.id);    // DB상 list 목록 제거
+    toDos = toDos.filter(toDo => toDo.id !== parseInt(li.id));    // DB상 list 목록 제거
     saveToDos();
 }
 
