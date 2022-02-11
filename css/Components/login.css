@@ -18,10 +18,14 @@
   color: white;
 }
 
+<<<<<<< Updated upstream
 input:focus {
   outline: none;
 }
 
 #login-form input::placeholder {
+=======
+.login-form input::placeholder {
+>>>>>>> Stashed changes
   color: white;
 }
