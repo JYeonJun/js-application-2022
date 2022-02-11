@@ -12,11 +12,19 @@ body {
   color: white;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding-top: 250px;
+  padding-top: 350px;
   margin: 0;
   height: 100%;
   overflow: hidden;
+}
+
+.logined-window {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hidden {
