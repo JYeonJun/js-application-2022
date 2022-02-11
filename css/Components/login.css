@@ -1,23 +1,35 @@
-#login-form {
+.login-form {
   margin-bottom: 10px;
-  border-bottom: 1px solid white;
+  display: flex;
+  flex-direction: column;
 }
 
-#login-form input {
+.login-form h1 {
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.login-form input {
   border: none;
   background-color: transparent;
   color: white;
-  font-size: 24px;
+  font-size: 34px;
+  font-weight: 600;
   padding: 5px 10px;
+  border-bottom: 2px solid white;
+  text-align: center;
 }
 
-#login-form button {
+.login-form button {
   border: none;
   background-color: transparent;
   font-size: 18px;
   color: white;
 }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 input:focus {
   outline: none;
@@ -28,4 +40,21 @@ input:focus {
 .login-form input::placeholder {
 >>>>>>> Stashed changes
   color: white;
+=======
+.login-form input::placeholder {
+  color: white;
+}
+
+@keyframes changeWindowFadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.window-animation {
+  animation: changeWindowFadein 1s;
+>>>>>>> experimental
 }

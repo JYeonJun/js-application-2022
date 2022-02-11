@@ -4,6 +4,8 @@
 @import "Components/clock.css";
 @import "Components/quote.css";
 @import "Components/greeting.css";
+@import "Components/todo.css";
+@import "Components/logined.css";
 
 @import "reset.css";
 
@@ -12,8 +14,9 @@ body {
   color: white;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding-top: 250px;
+  padding-top: 300px;
   margin: 0;
   height: 100%;
   overflow: hidden;
@@ -23,6 +26,6 @@ body {
   display: none;
 }
 
-li {
-  list-style-type: disc;
+input:focus {
+  outline: none;
 }
