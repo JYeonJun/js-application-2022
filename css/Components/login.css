@@ -29,18 +29,6 @@
   color: white;
 }
 
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-input:focus {
-  outline: none;
-}
-
-#login-form input::placeholder {
-=======
-.login-form input::placeholder {
->>>>>>> Stashed changes
-  color: white;
-=======
 .login-form input::placeholder {
   color: white;
 }
@@ -56,5 +44,4 @@ input:focus {
 
 .window-animation {
   animation: changeWindowFadein 1s;
->>>>>>> experimental
 }
