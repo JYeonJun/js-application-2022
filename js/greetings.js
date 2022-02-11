@@ -27,6 +27,7 @@ function paintGreetings(username){
     }
 
     loginedWindow.classList.remove(HIDDEN_CLASSNAME);
+    loginedWindow.classList.add("window-animation");
 }
 
 const savedUsername = localStorage.getItem(USERNAME_KEY);
