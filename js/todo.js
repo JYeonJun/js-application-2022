@@ -48,7 +48,7 @@ toDoForm.addEventListener("submit", handleToDoSubmit);
 const savedToDos = localStorage.getItem(TODOS_KEY);
 
 if(savedToDos !== null){
-    const parsedToDos = JSON.parse(savedToDos);
+    const parsedToDos = JSON.parse(savedToDos); // 배열 생성
     toDos = parsedToDos;
     parsedToDos.forEach(paintToDo);
 }
